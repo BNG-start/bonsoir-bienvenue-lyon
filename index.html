@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bonsoir Bienvenue — Bar à manger & vin nature, 26 rue Neuve, Lyon 2</title>
+  <meta name="description" content="Bonsoir Bienvenue, a place to eat and drink. Bar à manger, vin nature et petites assiettes au 26 rue Neuve, Lyon 2e. All welcome. Réservez pour manger.">
+  <meta name="theme-color" content="#0B0B0B">
+  <meta property="og:title" content="Bonsoir Bienvenue — Another F*cking Bar">
+  <meta property="og:description" content="A place to eat and drink. 26 rue Neuve, Lyon. All welcome.">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700;1,9..144,900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BarOrPub","name":"Bonsoir Bienvenue","servesCuisine":["Vin nature","Petites assiettes"],
+   "address":{"@type":"PostalAddress","streetAddress":"26 rue Neuve","postalCode":"69002","addressLocality":"Lyon","addressCountry":"FR"},
+   "sameAs":["https://www.instagram.com/bonsoir.bienvenue/"],
+   "openingHoursSpecification":[
+     {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday"],"opens":"18:00","closes":"23:00"},
+     {"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"18:00","closes":"01:00"},
+     {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"18:00","closes":"02:00"}]}
+  </script>
+</head>
+<body>
+
+<header class="header">
+  <a href="#top" class="logo" aria-label="Bonsoir Bienvenue, accueil">Bonsoir<br>Bienvenue</a>
+  <nav class="nav" id="nav" aria-label="Navigation principale">
+    <a href="#bar">Le bar</a>
+    <a href="#assiettes">Assiettes</a>
+    <a href="#vins">Vins</a>
+    <a href="#horaires">Horaires</a>
+    <a href="#reserver" class="nav__cta">Réserver</a>
+  </nav>
+  <button class="burger" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <img class="hero__bg" src="images/hero.jpg" alt="Comptoir de bar éclairé en rouge, le soir" fetchpriority="high">
+    <div class="hero__inner">
+      <p class="status" data-status><span class="dot"></span><span data-status-text>…</span></p>
+      <h1 class="hero__title">Another<br>F*cking<br>Bar</h1>
+      <p class="hero__lead">A place to eat and drink. Vin nature, petites assiettes et grandes soirées au <strong>26 rue Neuve</strong>, Lyon 2.</p>
+      <div class="hero__ctas">
+        <a href="#reserver" class="btn btn--red">Réserver pour manger</a>
+        <a href="#assiettes" class="btn btn--ghost">Voir les assiettes</a>
+      </div>
+    </div>
+    <p class="hero__stamp" aria-hidden="true">All<br>welcome</p>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Bonsoir</span><span>Bienvenue</span><span>Vin nature</span><span>Pâté-croûte</span><span>Burrata</span><span>Sardines</span><span>Sloppy Joe</span><span>Pizza</span><span>All welcome</span>
+      <span>Bonsoir</span><span>Bienvenue</span><span>Vin nature</span><span>Pâté-croûte</span><span>Burrata</span><span>Sardines</span><span>Sloppy Joe</span><span>Pizza</span><span>All welcome</span>
+    </div>
+  </div>
+
+  <section id="bar" class="section about">
+    <div class="about__text reveal">
+      <p class="kicker">Le bar</p>
+      <h2 class="title">On vient pour un verre.<br><em>On reste pour la nuit.</em></h2>
+      <p>Bonsoir Bienvenue, c'est le bar où l'on se sent chez soi dès la porte poussée : des bouteilles qui ont du caractère, une cuisine qui se partage et de la musique jusqu'à tard. Pas de code, pas de chichis.</p>
+      <ul class="facts">
+        <li><strong>Vin nature</strong><span>Au verre ou à la bouteille</span></li>
+        <li><strong>À manger</strong><span>Sur réservation</span></li>
+        <li><strong>Jusqu'à 2h</strong><span>Vendredi et samedi</span></li>
+      </ul>
+    </div>
+    <figure class="about__img reveal">
+      <img src="images/rue.jpg" alt="Façade de bar éclairée de rouge dans une rue de nuit" loading="lazy">
+      <figcaption>26 rue Neuve · Lyon 2</figcaption>
+    </figure>
+  </section>
+
+  <section id="assiettes" class="section menu">
+    <div class="section__head reveal">
+      <p class="kicker">À manger</p>
+      <h2 class="title">Des assiettes<br><em>à partager.</em></h2>
+      <p class="muted">Un aperçu de ce qui passe sur le comptoir. La carte bouge avec les saisons et les envies.</p>
+    </div>
+    <div class="plates">
+      <article class="plate reveal">
+        <img src="images/burrata.jpg" alt="Burrata crémeuse sur tomates" loading="lazy">
+        <div><h3>Burrata</h3><p>Crémeuse, généreuse, à saucer avec du bon pain.</p></div>
+      </article>
+      <article class="plate reveal">
+        <img src="images/sardines.jpg" alt="Sardines sur tartines grillées" loading="lazy">
+        <div><h3>Sardines</h3><p>Sur tartine grillée, comme à l'apéro qu'on aime.</p></div>
+      </article>
+      <article class="plate plate--text reveal">
+        <div><p class="plate__big">Pâté-<br>croûte</p><p>Le classique lyonnais, en tranche épaisse.</p></div>
+      </article>
+      <article class="plate reveal">
+        <img src="images/sloppy.jpg" alt="Sandwich garni de viande effilochée" loading="lazy">
+        <div><h3>Sloppy Joe</h3><p>Le sandwich qui tache. On assume.</p></div>
+      </article>
+      <article class="plate reveal">
+        <img src="images/pizza.jpg" alt="Pizza napolitaine sortie du four" loading="lazy">
+        <div><h3>Pizza napolitaine</h3><p>Pâte gonflée, bords croustillants, à partager (ou pas).</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="vins" class="section wine">
+    <img class="wine__bg" src="images/vin.jpg" alt="" loading="lazy">
+    <div class="wine__inner reveal">
+      <p class="kicker">À boire</p>
+      <h2 class="title">Du vin qui<br><em>a des choses à dire.</em></h2>
+      <p>Une sélection surtout nature, choisie chez des vignerons qui travaillent propre. Demandez au comptoir : il y a toujours une bouteille qui vous attend.</p>
+      <div class="pills"><span>Nature</span><span>Au verre</span><span>Bières</span><span>Softs maison</span></div>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="Ambiance">
+    <img src="images/foule.jpg" alt="Soirée animée dans un bar" loading="lazy">
+    <img src="images/enseigne.jpg" alt="Enseigne lumineuse BAR la nuit" loading="lazy">
+    <a class="strip__ig" href="https://www.instagram.com/bonsoir.bienvenue/" target="_blank" rel="noopener">@bonsoir.bienvenue</a>
+  </section>
+
+  <section id="horaires" class="section infos">
+    <div class="reveal">
+      <p class="kicker">Horaires</p>
+      <h2 class="title">Bonsoir,<br><em>c'est ouvert ?</em></h2>
+      <p class="status status--big" data-status><span class="dot"></span><span data-status-text>…</span></p>
+      <table class="hours">
+        <tr data-day="2"><th>Mardi</th><td>18h – 23h</td></tr>
+        <tr data-day="3"><th>Mercredi</th><td>18h – 23h</td></tr>
+        <tr data-day="4"><th>Jeudi</th><td>18h – 1h</td></tr>
+        <tr data-day="5"><th>Vendredi</th><td>18h – 2h</td></tr>
+        <tr data-day="6"><th>Samedi</th><td>18h – 2h</td></tr>
+        <tr data-day="0"><th>Dimanche</th><td>Fermé</td></tr>
+        <tr data-day="1"><th>Lundi</th><td>Fermé</td></tr>
+      </table>
+    </div>
+    <div class="reveal">
+      <p class="kicker">Adresse</p>
+      <p class="address">26 rue Neuve<br>69002 Lyon</p>
+      <p class="muted">Métro A ou C · Hôtel de Ville – Louis Pradel</p>
+      <iframe class="map" title="Plan d'accès Bonsoir Bienvenue" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=26+rue+Neuve+69002+Lyon&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="reserver" class="section book">
+    <div class="book__head reveal">
+      <p class="kicker">Reserve for food</p>
+      <h2 class="title">Une table<br><em>pour ce soir ?</em></h2>
+      <p class="muted">Pour boire un verre, pas besoin de réserver. Pour manger, laissez-nous un mot : votre demande est prête à nous être envoyée sur Instagram.</p>
+    </div>
+    <form class="form reveal" id="form" novalidate>
+      <label>Votre prénom<input name="nom" autocomplete="given-name" required></label>
+      <label>Date<input type="date" name="date" id="date" required></label>
+      <fieldset>
+        <legend>Heure</legend>
+        <div class="slots" data-slots role="radiogroup" aria-label="Heure d'arrivée"></div>
+      </fieldset>
+      <div class="stepper">
+        <span>Combien ?</span>
+        <button type="button" data-step="-1" aria-label="Une personne de moins">−</button>
+        <output id="pers">2</output>
+        <button type="button" data-step="1" aria-label="Une personne de plus">+</button>
+      </div>
+      <label>Un mot ? <span class="muted">(allergies, anniversaire…)</span><textarea name="message" rows="3"></textarea></label>
+      <p class="form__error" id="form-error" role="alert"></p>
+      <button class="btn btn--red btn--full" type="submit">Préparer ma demande</button>
+      <p class="form__ok" id="form-ok" hidden>Votre message est copié. Collez-le dans la conversation Instagram qui vient de s'ouvrir.</p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__logo">Bonsoir Bienvenue</p>
+  <p>26 rue Neuve, Lyon 2 · <a href="https://www.instagram.com/bonsoir.bienvenue/" target="_blank" rel="noopener">Instagram</a></p>
+  <p class="footer__credit">Prototype réalisé par BNG Digital Agency · © <span data-year></span></p>
+</footer>
+
+<a href="#reserver" class="fab">Réserver</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
